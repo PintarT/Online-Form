@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercell ID – registracija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <div class="logo">SUPERCELL <span>ID</span></div>
+        <div class="steps"><span>Register</span><span class="muted">Finish</span></div>
+        <div class="progress"></div>
+        <h1>Create a Supercell ID</h1>
+        <p class="intro">Enter your details to create an account.</p>
+        <form action="register-success.html">
+            <input type="text" placeholder="First name" aria-label="Ime" required>
+            <input type="text" placeholder="Last name" aria-label="Priimek" required>
+            <input type="email" placeholder="Enter your email" aria-label="E-pošta" required>
+            <input type="password" placeholder="Create a password" aria-label="Geslo" minlength="8" required>
+            <input type="password" placeholder="Confirm password" aria-label="Potrditev gesla" minlength="8" required>
+            <label for="birthdate">Date of birth</label>
+            <input type="date" id="birthdate" aria-label="Datum rojstva" required>
+            <button class="btn primary" type="submit">REGISTER</button>
+        </form>
+        <a class="btn secondary" href="login.html">CANCEL</a>
+        <a class="register-link" href="login.html">Already have an account? Log in</a>
+    </main>
+<footer class="footer">
+    <span class="language">◎ English⌄</span>
+    <a href="login.html">Privacy Policy</a>
+    <a href="login.html">Terms of Service</a>
+    <a href="login.html">Manage Cookies</a>
+    <span class="watermark">SUP<br>ERC<br>ELL</span>
+</footer>
+</body>
+</html>

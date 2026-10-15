@@ -1,0 +1,183 @@
+* { 
+box-sizing: border-box; }
+body { margin: 0;
+ min-height: 100vh;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #111;
+ background: linear-gradient(155deg, #071b46 0%, #123777 54%, #53c5e5 100%); 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 28px 16px 100px; 
+ }
+.card {
+width: 100%;
+ max-width: 396px; 
+ background: linear-gradient(#fff, #f2f2f2); 
+ border-radius: 15px; padding: 48px 52px 56px;
+ min-height: 570px; 
+ box-shadow: 0 5px 0 rgba(0,0,0,.12);
+ text-align: center; 
+ }
+.logo { 
+font-size: 21px;
+font-weight: 900; 
+letter-spacing: -1px; 
+margin: 4px 0 30px; 
+ }
+.logo span { 
+display: inline-block;
+color: white;
+background: #050505; 
+border-radius: 9px;
+padding: 5px 7px; 
+letter-spacing: 0; 
+ }
+.steps {
+display: flex;
+justify-content: space-between; 
+font-size: 12px;
+#888; 
+}
+.progress { 
+height: 17px;
+border-radius: 20px; 
+background: linear-gradient(90deg,#3798f4,#24d8b7);
+position: relative; 
+margin-bottom: 28px;
+ }
+.progress:before {
+content: ""; 
+position: absolute;
+width: 10px;
+height: 10px;  background: white; 
+border-radius: 50%; 
+left: 4px; 
+top: 3.5px; 
+ }
+h1 {
+font-size: 17px; 
+margin: 0 0 10px; 
+}
+.intro {
+color: #777; 
+font-size: 14px; 
+line-height: 1.5; 
+margin: 0 0 26px; 
+}
+form { 
+text-align: left;
+}
+input { 
+width: 100%; 
+height: 46px; 
+border: 1px solid #d7d7d7; 
+border-radius: 8px; 
+padding: 0 12px; 
+margin-bottom: 12px; 
+font: inherit; 
+font-size: 14px; 
+box-shadow: inset 0 1px 2px #ddd; 
+background: #fff; 
+}
+input:focus { 
+outline: 2px solid #399bf0; 
+border-color: transparent; 
+}
+label { 
+display:block; 
+font-size:12px; 
+color:#666; 
+margin:0 0 7px 2px; 
+}
+.notice { 
+color: #777; 
+font-size: 11px; 
+line-height: 1.5; 
+text-align: center; 
+margin: 0 0 12px; 
+}
+a { 
+color: #287cff; 
+text-decoration: none; 
+}
+a:hover {
+text-decoration: underline; 
+}
+.btn { 
+width: 100%; 
+min-height: 46px; 
+border-radius: 25px; 
+border: 0; 
+font-weight: bold; 
+font-size: 13px; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+text-align: center; 
+cursor: pointer;
+text-decoration: none; 
+margin-top: 11px; 
+}
+.primary { 
+background: #c5d7f5; 
+color: #fff; 
+}
+form:valid .primary {
+background: linear-gradient(90deg,#3599f5,#24d8b7); 
+color: #fff; 
+}
+.secondary { 
+border: 2px solid #d0d0d0; 
+color: #555; 
+background: transparent; 
+}
+.register-link { 
+display: block; 
+font-size: 11px; 
+margin-top: 29px; 
+text-align: center; }
+.success-card { 
+min-height: 430px; 
+padding-top: 55px; 
+}
+.success-mark { 
+width: 58px; 
+height: 58px; 
+line-height: 58px; 
+border-radius: 50%; 
+margin: 24px auto;
+ background: linear-gradient(135deg,#3599f5,#24d8b7); 
+ color: white; 
+ font-size: 32px; 
+ font-weight: bold; 
+ }
+.footer { 
+position: fixed; 
+bottom: 28px; 
+left: 3%; 
+right: 3%; 
+display: flex; 
+align-items: center;
+ gap: 24px; 
+ color: white; 
+ font-size: 11px; 
+ font-weight: bold; 
+ }
+.language { 
+border: 1px solid white; 
+border-radius: 7px; 
+padding: 10px; 
+font-weight: normal; 
+}
+.footer a { 
+color: white; 
+}
+.watermark { 
+margin-left: auto; 
+font-size: 17px; 
+font-weight: 900; 
+line-height: .8; 
+text-align: center; 
+}
+
