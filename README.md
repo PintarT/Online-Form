@@ -6,7 +6,7 @@ Ta projekt je šolska naloga, pri kateri sem izdelal spletno stran po vzoru prij
 
 Spletna stran omogoča prikaz prijavnega obrazca, registracijskega obrazca in dveh strani za uspešen zaključek postopka.
 
-Projekt je izdelan samo z **HTML in CSS**, brez JavaScripta.
+Projekt je izdelan samo z **HTML in CSS**.
 
 ## Funkcionalnosti
 
