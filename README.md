@@ -31,6 +31,14 @@ Projekt je izdelan samo z **HTML in CSS**, brez JavaScripta.
 - `register-success.html` – stran po uspešni predstavitveni registraciji.
 - `style.css` – skupna CSS-pravila za oblikovanje strani.
 
+## Posnetki zaslona
+
+Spodaj sta vključena oba posnetka zaslona iz repozitorija:
+
+![Prijavna stran (Login)](ScreenshotLogin.png)
+
+![Registracijska stran (Register)](ScreenshotRegister.png)
+
 ## Kako zaženem projekt?
 
 1. Prenesem ali kloniram repozitorij.
@@ -40,11 +48,11 @@ Projekt je izdelan samo z **HTML in CSS**, brez JavaScripta.
 
 ## Kaj sem se naučil?
 
-Pri projektu sem se naučil uporabljati HTML za izdelavo obrazcev in povezav ter CSS za oblikovanje spletne strani. Spoznal sem tudi uporabo razredov, ID-jev, psevdorazredov in osnovnega preverjanja vnosnih polj.
+Pri projektu sem se naučil uporabljati HTML za izdelavo obrazcev in povezav ter CSS za oblikovanje spletne strani. Spoznal sem tudi uporabo razredov, ID-jev, psevdorazredov in osnovnega preverjanja v[...] 
 
 ## Omejitve projekta
 
-To je demonstracijski projekt. Ne uporablja strežnika ali podatkovne baze, zato ne shranjuje uporabniških računov in ne preverja dejanske prijave. Preverjanje polj izvaja brskalnik s pomočjo osnovnih HTML-pravil.
+To je demonstracijski projekt. Ne uporablja strežnika ali podatkovne baze, zato ne shranjuje uporabniških računov in ne preverja dejanske prijave. Preverjanje polj izvaja brskalnik s pomočjo osnov[...]
 
 ## Avtor
 
