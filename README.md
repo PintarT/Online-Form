@@ -56,4 +56,4 @@ To je demonstracijski projekt. Ne uporablja strežnika ali podatkovne baze, zato
 
 ## Avtor
 
-Šolski projekt – izdelava prijavne in registracijske strani.
+Tristan Pintar
