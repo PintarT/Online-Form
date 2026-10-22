@@ -51,7 +51,11 @@
             Passwords do not match.
             </p>
             <label for="birthdate">Date of birth</label>
-            <input type="date" id="birthdate" aria-label="Datum rojstva" required>
+            <input type="date" id="birthdate"
+               aria-label="Datum rojstva"
+               min="1900-01-01"
+               max="2026-10-20"
+               required>
             <button class="btn primary" type="submit">REGISTER</button>
         </form>
         <a class="btn secondary" href="index.html">CANCEL</a>
