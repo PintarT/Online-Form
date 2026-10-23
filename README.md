@@ -25,7 +25,7 @@ Projekt je izdelan z **HTML in CSS**.
 
 ## Datoteke projekta
 
-- `login.html` – stran za prijavo.
+- `index.html` – stran za prijavo.
 - `register.html` – stran za registracijo.
 - `login-success.html` – stran po uspešni predstavitveni prijavi.
 - `register-success.html` – stran po uspešni predstavitveni registraciji.
@@ -43,7 +43,7 @@ Spodaj sta vključena oba posnetka zaslona iz repozitorija:
 
 1. Prenesem ali kloniram repozitorij.
 2. Vse datoteke shranim v isto mapo.
-3. Odprem datoteko `login.html` v spletnem brskalniku.
+3. Odprem datoteko `index.html` v spletnem brskalniku.
 4. Prek povezav preizkusim prijavo in registracijo.
 
 ## Kaj sem se naučil?
